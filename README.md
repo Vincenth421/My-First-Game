@@ -6,8 +6,9 @@ I built this game in Spring 2019 Semester at UC Berkeley for the class CS 61B on
 Use IntelliJ or another IDE to import the included libraries needed to run this game.
 
 ### How to play
-Press 'n' to start a new game. You will be prompted to enter a seed, so enter any random number and press 's' to save. This will automatically start the game.  
-Use the WASD keys to move around until you find a yellow tile. Move onto the tile to win. Type ':q' to quit and automatically save your progress. When you start up the game again, press 'l' to load your previous save.
+* Press 'n' to start a new game. You will be prompted to enter a seed, so enter any random number and press 's' to save. This will automatically start the game.  
+* Use the WASD keys to move around until you find a yellow tile. Move onto the tile to win. 
+* Type ':q' to quit and automatically save your progress. When you start up the game again, press 'l' to load your previous save.
 
 ### How I made it
 I used a grid to draw tiles to form rooms and halls. The map is randomly generated using a binary space partitioning technique. The grid is divided up into sections recursively until a certain size. Then the rooms are generated and halls connect across the sections.  
