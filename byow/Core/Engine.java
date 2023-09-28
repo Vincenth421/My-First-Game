@@ -272,7 +272,9 @@ public class Engine {
      */
     private void changeTranslated(boolean t) {
         translated = !t;
-        world.player.translated = !t;
+        if (world != null) {
+            world.player.translated = !t;
+        }
         ter.setTranslated(!t);
     }
 
